@@ -12,12 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "boom": "^7.3.0",
+    "dotenv": "^10.0.0",
     "fastify": "^3.21.6",
-    "fastify-env": "^2.1.1",
     "fastify-swagger": "^4.12.3",
     "mongoose": "^6.0.8"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
     "nodemon": "^2.0.13"
   }
 }
