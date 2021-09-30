@@ -5,9 +5,13 @@ const dotenv = require("dotenv");
 
 const routes = require("./routes");
 
+const swagger = require("./utils/swagger");
+
 dotenv.config();
 
 require("./database");
+
+fastify.register(require("fastify-swagger"), swagger.options);
 
 fastify.register(routes);
 
